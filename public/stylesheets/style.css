@@ -1,0 +1,13 @@
+.post-title{
+    font-size: 16px;
+    color: #3cb371;
+}
+.post-body{
+    font-size: 12px;
+    color: #4A4A4A;
+}
+.post-container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}

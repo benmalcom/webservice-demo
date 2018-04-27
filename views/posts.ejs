@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<div class="post-container">
+    <h3><%= title %></h3>
+    <% if (posts) { %>
+        <ol>
+            <% posts.forEach(function(post) { %>
+            <li>
+                <h3 class="post-title"><%= post.title %></h3>
+                <p class="post-body"><%= post.body %></p>
+            </li>
+            <% }); %>
+        </ol>
+    <% } %>
+</div>
+</body>
+</html>
